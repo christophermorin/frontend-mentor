@@ -40,7 +40,7 @@ Desktop            |  Mobile
 
 ### What I learned
 
-I am familiar enough with HTML and CSS to have completed this with few issues but this was the first time building something from a premade example and trying to match it exactly. Choosing pixel sizes was to match was the most difficult part of the project.
+Practiced with a mobile first approach, the use of containers, and working with matching pixel sizes to a premade design for the first time.
 
 ### Continued development
 
