@@ -27,7 +27,7 @@ Desktop            |  Mobile
 ### Links
 
 - Solution URL: [Repo](https://github.com/christophermorin/frontend-mentor/tree/main/qr-code-component-main)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://cm-qr-code.netlify.app/)
 
 ## My process
 
@@ -49,7 +49,7 @@ Calculating exact pixel sizes is something I need to work on more.
 ## Author
 
 - Website - [Chris Morin](https://chrismorin.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@christophermorin](https://www.frontendmentor.io/profile/christophermorin)
 - Twitter - [@longhumans](https://twitter.com/longhumans)
 - Gitbuh - [GitHub](https://github.com/christophermorin)
 - LinkedIn [LinkedIn](https://www.linkedin.com/in/chrisjmorin/)
