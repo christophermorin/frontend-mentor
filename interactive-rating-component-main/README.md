@@ -27,16 +27,16 @@ Users should be able to:
 
 ### Screenshot
 
-Desktop            |  Mobile
+Desktop Front           |  Desktop Back
 :-------------------------:|:-------------------------:
-<img src="./images/desktop1.png" alt="Desktop View" width="500"/>  |  <img src="./images/mobile1.png" alt="Mobile View 1" width="200"/>
-<img src="./images/desktop2.png" alt="Desktop View" width="500"/>  |  <img src="./images/mobile2.png" alt="Mobile View 2" width="200"/>
+<img src="./images/desktop1.png" alt="Desktop View" width="500"/>  |  <img src="./images/desktop2.png" alt="Desktop View" width="500"/>
+  |  
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/christophermorin/frontend-mentor/tree/main/interactive-rating-component-main)
-- Live Site URL: [Add live site URL here](https://cm-interactive-rating-component.netlify.app/)
+- Solution URL: [REPO](https://github.com/christophermorin/frontend-mentor/tree/main/interactive-rating-component-main)
+- Live Site URL: [Live Site](https://cm-interactive-rating-component.netlify.app/)
 
 ## My process
 
@@ -63,7 +63,6 @@ rankChoice.addEventListener('click', (e) => {
         rankSubmitted.innerText = `You selected ${stars} out of 5`
     }
 })
-
 ```
 
 ### Continued development
