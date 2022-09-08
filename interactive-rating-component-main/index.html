@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  
+  <title>Chris Morin | Frontend Mentor | Interactive rating component</title>
+
+</head>
+<body>
+  <!-- Rating state start -->
+  <div class="container">
+    <div class="rating-card">
+      <div class="star"><img src="./images/icon-star.svg" alt="Star"></div>
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+      <ol id="rank">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </ol>
+      <section class="submit">Submit</section>
+    </div>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+      <div class="thankyou-card">
+        <img src="./images/illustration-thank-you.svg" alt="Thank You" class="thank-you-img">
+        <p class="rank-submission"></p>
+        <h1>Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+      </div>
+    </div>
+  <!-- Thank you state end -->
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+/* ************************** */
+/* BASE STYLES */
+/* ************************** */
+body {
+    font-family: 'Changa', sans-serif;
+    background-color: black;
+}
+h1{
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    margin: 10px 0 0 0 ;
+    text-shadow: 1px 1px 1px hsl(216, 12%, 8%);
+    letter-spacing: 2px;
+
+}
+p{
+    font-size: 15px;
+    color: hsl(216, 12%, 54%);
+    line-height: 20px;
+    text-shadow: 0 0 2px hsl(216, 12%, 8%);
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+    margin: 0;
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    list-style: none;
+}
+li, .star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 18%);
+    text-align: center;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+li:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+/* ************************ */
+/* STYLES */
+/* ************************ */
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25px;
+}
+.rating-card, .thankyou-card{
+    background: linear-gradient(#212832, #1c232d, #171e28);
+    padding: 25px;
+    border-radius: 5%;
+    height: 305px;
+    max-width: 310px;
+}
+.thankyou-card{
+    display: none;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rank-submission{
+    color:hsla(25, 95%, 61%, 0.722);
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 40px;
+    padding: 5px 10px 5px 10px;
+    text-shadow: none;
+}
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 14px 0;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.submit:hover{
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+.thank-you-img{
+    width: 145px;
+    margin-bottom: 10px;
+}
+/* JS SET STYLES */
+.setChoice{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+/* *********************************** */
+/* MEDIA QUERIES */
+/* *********************************** */
+@media screen and (min-width: 1440px) {
+    .rating-card, .thankyou-card{
+        height: 405px;
+        max-width: 410px;
+    }
+    .star{
+        margin-bottom: 30px;
+    }
+    .thank-you-img{
+        width: 165px;
+        margin-bottom: 15px;
+    }
+    h1{
+        text-shadow: 0 0 2px hsl(0, 0%, 100%);
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+        line-height:25px;
+        margin-bottom: 30px;
+    }
+    ol{
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+    li, .star{
+    height: 55px;
+    width: 55px;
+    }
+}
